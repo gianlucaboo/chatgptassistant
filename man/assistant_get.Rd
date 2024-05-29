@@ -2,21 +2,21 @@
 % Please edit documentation in R/assistant_get.R
 \name{assistant_get}
 \alias{assistant_get}
-\title{Retrieve an assistant}
+\title{Retrieve an Assistant}
 \usage{
-assistant_get(assistant_id, token)
+assistant_get(assistant_id, api_key)
 }
 \arguments{
-\item{assistant_id}{The ChatGPT assistant ID}
+\item{assistant_id}{The Assistant ID}
 
-\item{token}{A ChatGPT token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A list containing the assistants parameters
+An Assistant object. See https://platform.openai.com/docs/api-reference/assistants/object
 }
 \description{
-Retrieve an assistant
+Retrieve an Assistant
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/assistants/getAssistant
 }

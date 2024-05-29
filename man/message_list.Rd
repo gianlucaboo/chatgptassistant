@@ -2,20 +2,20 @@
 % Please edit documentation in R/message_list.R
 \name{message_list}
 \alias{message_list}
-\title{Get messages}
+\title{List Messages}
 \usage{
-message_list(thread_id, token)
+message_list(thread_id, api_key)
 }
 \arguments{
-\item{thread_id}{Thread id}
+\item{thread_id}{The Thread ID}
 
-\item{token}{A Token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-Object
+A list of Message objects. See https://platform.openai.com/docs/api-reference/messages/object
 }
 \description{
-Get messages
+List Messages
 }
 \examples{
 See ChatGPT

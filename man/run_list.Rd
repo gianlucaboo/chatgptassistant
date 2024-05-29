@@ -2,21 +2,21 @@
 % Please edit documentation in R/run_list.R
 \name{run_list}
 \alias{run_list}
-\title{List run status}
+\title{List Runs}
 \usage{
-run_list(thread_id, token)
+run_list(thread_id, api_key)
 }
 \arguments{
-\item{thread_id}{Thread Id}
+\item{thread_id}{The Thread ID}
 
-\item{token}{Token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A run
+A list of Run objects. See https://platform.openai.com/docs/api-reference/runs/object
 }
 \description{
-List run status
+List Runs
 }
 \examples{
-See chatgpt
+See https://platform.openai.com/docs/api-reference/runs/listRuns
 }

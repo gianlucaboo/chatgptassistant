@@ -2,23 +2,23 @@
 % Please edit documentation in R/message_create.R
 \name{message_create}
 \alias{message_create}
-\title{Create a new message}
+\title{Create a Message}
 \usage{
-message_create(thread_id, message, token)
+message_create(thread_id, message, api_key)
 }
 \arguments{
-\item{thread_id}{The thread id}
+\item{thread_id}{The Thread ID}
 
-\item{message}{The new message}
+\item{message}{The message}
 
-\item{token}{The token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A message list
+A Message object. See https://platform.openai.com/docs/api-reference/messages/object
 }
 \description{
-Create a new message
+Create a Message
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/messages/createMessage
 }

@@ -2,21 +2,21 @@
 % Please edit documentation in R/thread_delete.R
 \name{thread_delete}
 \alias{thread_delete}
-\title{Delete a thread}
+\title{Delete a Thread}
 \usage{
-thread_delete(thread_id, token)
+thread_delete(thread_id, api_key)
 }
 \arguments{
-\item{thread_id}{The thread ID}
+\item{thread_id}{The Thread ID}
 
-\item{token}{The token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-Pink
+Information on the deleted Thread object. See https://platform.openai.com/docs/api-reference/threads/object
 }
 \description{
-Delete a thread
+Delete a Thread
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/threads/deleteThread
 }

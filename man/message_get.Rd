@@ -2,23 +2,23 @@
 % Please edit documentation in R/message_get.R
 \name{message_get}
 \alias{message_get}
-\title{Get a specific message}
+\title{Retrieve a Message}
 \usage{
-message_get(thread_id, message_id, token)
+message_get(thread_id, message_id, api_key)
 }
 \arguments{
-\item{thread_id}{The thread id}
+\item{thread_id}{The Thread ID}
 
-\item{message_id}{The message id}
+\item{message_id}{The Message ID}
 
-\item{token}{The token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-Object
+A Message object. See https://platform.openai.com/docs/api-reference/messages/object
 }
 \description{
-Get a specific message
+Retrieve a Message
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/messages/getMessage
 }

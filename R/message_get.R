@@ -1,17 +1,17 @@
-#' Get a specific message
+#' Retrieve a Message
 #'
-#' @param thread_id The thread id
-#' @param message_id The message id
-#' @param token The token
+#' @param thread_id The Thread ID
+#' @param message_id The Message ID
+#' @param api_key The OpenAI Api key
 #'
-#' @return Object
+#' @return A Message object. See https://platform.openai.com/docs/api-reference/messages/object
 #' @export
 #'
-#' @examples See ChatGPT
+#' @examples See https://platform.openai.com/docs/api-reference/messages/getMessage
 
-message_get <- function(thread_id, message_id, token){
+message_get <- function(thread_id, message_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id, "/messages/", message_id)) |>
-    httr2::req_auth_bearer_token(token=token) |>
+    httr2::req_auth_bearer_token(token=api_key) |>
     httr2::req_headers("Content-Type"="application/json", "OpenAI-Beta"="assistants=v2") |>
     httr2::req_perform() |>
     httr2::resp_body_json()

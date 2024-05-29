@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: 
     person("Gianluca", "Boo", , "gianluca.boo@gmail.com", role = c("aut", "cre"))
 Description: This package is a wrapper for the OpenAI ChatGPT Assistants API. It allows you to create and operate AI assistants.
-    Please refer to the Assistants API original documnetation for more information https://platform.openai.com/docs/assistants/overview.
+    Please refer to the Assistants API original documnetation for more information https://platform.openai.com/docs/api-reference/assistants.
 License: MIT + file LICENSE
 URL: https://github.com/gianlucaboo/chatgptassistant
 BugReports: https://github.com/gianlucaboo/chatgptassistant/issues

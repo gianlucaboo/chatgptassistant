@@ -2,19 +2,21 @@
 % Please edit documentation in R/thread_get.R
 \name{thread_get}
 \alias{thread_get}
-\title{Get a thread}
+\title{Retrieve a Thread}
 \usage{
-thread_get(thread_id, token)
+thread_get(thread_id, api_key)
 }
 \arguments{
-\item{thread_id}{The ID thread}
+\item{thread_id}{The Thread ID}
+
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A thread object
+A Thread object. See https://platform.openai.com/docs/api-reference/threads/object
 }
 \description{
-Get a thread
+Retrieve a Thread
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/threads/getThread
 }

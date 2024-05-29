@@ -2,19 +2,19 @@
 % Please edit documentation in R/thread_create.R
 \name{thread_create}
 \alias{thread_create}
-\title{Create a new thread}
+\title{Create a Thread}
 \usage{
-thread_create(token)
+thread_create(api_key)
 }
 \arguments{
-\item{token}{A token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A new thread object
+A Thread object. See https://platform.openai.com/docs/api-reference/threads/object
 }
 \description{
-Create a new thread
+Create a Thread
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/threads/createThread
 }

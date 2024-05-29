@@ -2,23 +2,23 @@
 % Please edit documentation in R/message_delete.R
 \name{message_delete}
 \alias{message_delete}
-\title{Delete a message}
+\title{Delete a Message}
 \usage{
-message_delete(thread_id, message_id, token)
+message_delete(thread_id, message_id, api_key)
 }
 \arguments{
-\item{thread_id}{The thread ID}
+\item{thread_id}{The Thread ID}
 
-\item{message_id}{The message ID}
+\item{message_id}{The Message ID}
 
-\item{token}{The ChatGPT Token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-Object
+Information on the deleted Message object. See https://platform.openai.com/docs/api-reference/messages/object
 }
 \description{
-Delete a message
+Delete a Message
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/messages/deleteMessage
 }

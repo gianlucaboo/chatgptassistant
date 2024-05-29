@@ -2,19 +2,19 @@
 % Please edit documentation in R/assistant_list.R
 \name{assistant_list}
 \alias{assistant_list}
-\title{List assistants}
+\title{List Assistants}
 \usage{
-assistant_list(token)
+assistant_list(api_key)
 }
 \arguments{
-\item{token}{A ChatGPT token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A list with all the available ChatGPT assistants
+A list of Assistants objects. See https://platform.openai.com/docs/api-reference/assistants/object
 }
 \description{
-List assistants
+List Assistants
 }
 \examples{
-See ChatGPT
+See https://platform.openai.com/docs/api-reference/assistants/listAssistants
 }

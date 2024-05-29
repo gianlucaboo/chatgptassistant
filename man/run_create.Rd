@@ -2,23 +2,23 @@
 % Please edit documentation in R/run_create.R
 \name{run_create}
 \alias{run_create}
-\title{Create run}
+\title{Create Run}
 \usage{
-run_create(thread_id, asst_id, token)
+run_create(thread_id, assistant_id, api_key)
 }
 \arguments{
-\item{thread_id}{thread ID}
+\item{thread_id}{The Thread ID}
 
-\item{asst_id}{assistant id}
+\item{assistant_id}{The Assistant ID}
 
-\item{token}{token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A run
+A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 }
 \description{
-Create run
+Create Run
 }
 \examples{
-See chatgpt
+See https://platform.openai.com/docs/api-reference/runs/createRun
 }

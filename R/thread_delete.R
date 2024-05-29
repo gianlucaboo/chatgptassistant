@@ -1,16 +1,16 @@
-#' Delete a thread
+#' Delete a Thread
 #'
-#' @param thread_id The thread ID
-#' @param token The token
+#' @param thread_id The Thread ID
+#' @param api_key The OpenAI Api key
 #'
-#' @return Pink
+#' @return Information on the deleted Thread object. See https://platform.openai.com/docs/api-reference/threads/object
 #' @export
 #'
-#' @examples See ChatGPT
+#' @examples See https://platform.openai.com/docs/api-reference/threads/deleteThread
 
-thread_delete <- function(thread_id, token){
+thread_delete <- function(thread_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id)) |>
-    httr2::req_auth_bearer_token(token=token) |>
+    httr2::req_auth_bearer_token(token=api_key) |>
     httr2::req_headers("Content-Type"="application/json", "OpenAI-Beta"="assistants=v2") |>
     httr2::req_method("DELETE") |>
     httr2::req_perform() |>

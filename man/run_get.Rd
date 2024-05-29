@@ -2,23 +2,23 @@
 % Please edit documentation in R/run_get.R
 \name{run_get}
 \alias{run_get}
-\title{Get a run}
+\title{Retrieve a Run}
 \usage{
-run_get(thread_id, run_id, token)
+run_get(thread_id, run_id, api_key)
 }
 \arguments{
-\item{thread_id}{Thread id}
+\item{thread_id}{The Thread ID}
 
-\item{run_id}{Run id}
+\item{run_id}{The Run ID}
 
-\item{token}{Token}
+\item{api_key}{The OpenAI Api key}
 }
 \value{
-A run
+A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 }
 \description{
-Get a run
+Retrieve a Run
 }
 \examples{
-See chatgpt
+See https://platform.openai.com/docs/api-reference/runs/getRun
 }
