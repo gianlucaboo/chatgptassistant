@@ -2,7 +2,7 @@
 % Please edit documentation in R/run_go.R
 \name{run_go}
 \alias{run_go}
-\title{Execture a Run NO NO NO}
+\title{Execture a Run}
 \usage{
 run_go(thread_id, run_id, api_key)
 }
@@ -17,7 +17,7 @@ run_go(thread_id, run_id, api_key)
 A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 }
 \description{
-Execture a Run NO NO NO
+Execture a Run
 }
 \examples{
 See chatgpt
