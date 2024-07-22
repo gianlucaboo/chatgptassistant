@@ -1,4 +1,4 @@
-#' Execture a Run NO NO NO
+#' Execture a Run
 #'
 #' @param thread_id The Thread ID
 #' @param run_id The Run ID
