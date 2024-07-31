@@ -15,5 +15,8 @@ Depends:
     R (>= 4.1.0)
 Imports: 
     httr2,
-    utils
+    utils,
+    purrr,
+    data.table,
+    dplyr
 RoxygenNote: 7.3.2
