@@ -19,6 +19,3 @@ Information on the deleted Message object. See https://platform.openai.com/docs/
 \description{
 Delete a Message
 }
-\examples{
-See platform.openai.com/docs/api-reference/messages/deleteMessage
-}

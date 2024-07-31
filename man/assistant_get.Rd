@@ -17,6 +17,3 @@ An Assistant object. See https://platform.openai.com/docs/api-reference/assistan
 \description{
 Retrieve an Assistant
 }
-\examples{
-See platform.openai.com/docs/api-reference/assistants/getAssistant
-}

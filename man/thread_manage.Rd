@@ -17,6 +17,3 @@ An Thread object. See https://platform.openai.com/docs/api-reference/assistants/
 \description{
 Create and store a new therad
 }
-\examples{
-See platform.openai.com/docs/api-reference/assistants/thread
-}

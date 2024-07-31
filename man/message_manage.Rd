@@ -17,6 +17,3 @@ Print the status
 \description{
 Manage Messages
 }
-\examples{
-See platform.openai.com/docs/api-reference/messages
-}

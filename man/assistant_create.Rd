@@ -21,6 +21,3 @@ An Assistant object. See https://platform.openai.com/docs/api-reference/assistan
 \description{
 Create an Assistant
 }
-\examples{
-See platform.openai.com/docs/api-reference/assistants/createAssistant
-}

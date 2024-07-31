@@ -19,6 +19,3 @@ A Message object. See https://platform.openai.com/docs/api-reference/messages/ob
 \description{
 Retrieve a Message
 }
-\examples{
-See platform.openai.com/docs/api-reference/messages/getMessage
-}

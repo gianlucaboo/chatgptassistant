@@ -17,6 +17,3 @@ Information on the deleted Thread object. See https://platform.openai.com/docs/a
 \description{
 Delete a Thread
 }
-\examples{
-See platform.openai.com/docs/api-reference/threads/deleteThread
-}

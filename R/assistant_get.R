@@ -8,7 +8,6 @@
 #'
 #' @import httr2
 #' @examples
-#' See platform.openai.com/docs/api-reference/assistants/getAssistant
 
 assistant_get <- function(assistant_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/assistants/", assistant_id)) |>

@@ -9,7 +9,6 @@
 #'
 #' @import httr2
 #' @examples
-#' See platform.openai.com/docs/api-reference/runs/cancelRun
 
 run_delete <- function(thread_id, run_id, api_key) {
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id, "/runs/", run_id,"/cancel")) |>
