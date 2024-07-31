@@ -20,5 +20,5 @@ Information on the deleted Message object. See https://platform.openai.com/docs/
 Delete a Message
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/messages/deleteMessage
+See platform.openai.com/docs/api-reference/messages/deleteMessage
 }

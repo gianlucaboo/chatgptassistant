@@ -7,7 +7,7 @@
 #' @export
 #' @import httr2
 #'
-#' @examples See https://platform.openai.com/docs/api-reference/threads/getThread
+#' @examples See platform.openai.com/docs/api-reference/threads/getThread
 
 thread_get <- function(thread_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id)) |>

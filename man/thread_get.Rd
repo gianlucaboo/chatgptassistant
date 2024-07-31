@@ -18,5 +18,5 @@ A Thread object. See https://platform.openai.com/docs/api-reference/threads/obje
 Retrieve a Thread
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/threads/getThread
+See platform.openai.com/docs/api-reference/threads/getThread
 }

@@ -18,5 +18,5 @@ An Thread object. See https://platform.openai.com/docs/api-reference/assistants/
 Create and store a new therad
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/assistants/thread
+See platform.openai.com/docs/api-reference/assistants/thread
 }

@@ -20,5 +20,5 @@ A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 Delete a Run
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/runs/cancelRun
+See platform.openai.com/docs/api-reference/runs/cancelRun
 }

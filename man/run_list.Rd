@@ -18,5 +18,5 @@ A list of Run objects. See https://platform.openai.com/docs/api-reference/runs/o
 List Runs
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/runs/listRuns
+See platform.openai.com/docs/api-reference/runs/listRuns
 }

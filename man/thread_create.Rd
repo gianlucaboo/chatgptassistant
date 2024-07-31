@@ -16,5 +16,5 @@ A Thread object. See https://platform.openai.com/docs/api-reference/threads/obje
 Create a Thread
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/threads/createThread
+See platform.openai.com/docs/api-reference/threads/createThread
 }

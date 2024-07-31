@@ -20,5 +20,5 @@ A Message object. See https://platform.openai.com/docs/api-reference/messages/ob
 Create a Message
 }
 \examples{
-See https://platform.openai.com/docs/api-reference/messages/createMessage
+See platform.openai.com/docs/api-reference/messages/createMessage
 }

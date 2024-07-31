@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @import httr2
-#' @examples See ChatGPT
+#' @examples See platform.openai.com/docs/api-reference/messages
 
 message_list <- function(thread_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id, "/messages")) |>

@@ -18,5 +18,5 @@ A list of Message objects. See https://platform.openai.com/docs/api-reference/me
 List Messages
 }
 \examples{
-See ChatGPT
+See platform.openai.com/docs/api-reference/messages
 }
