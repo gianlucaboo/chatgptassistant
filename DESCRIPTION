@@ -14,5 +14,6 @@ LazyData: true
 Depends:
     R (>= 4.1.0)
 Imports: 
-    httr2
+    httr2,
+    utils
 RoxygenNote: 7.3.2

@@ -8,7 +8,8 @@
 #' @export
 #'
 #' @import httr2
-#' @examples See platform.openai.com/docs/api-reference/runs/createRun
+#' @examples
+#' See platform.openai.com/docs/api-reference/runs/createRun
 
 run_create <- function(thread_id, assistant_id, api_key) {
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id, "/runs")) |>

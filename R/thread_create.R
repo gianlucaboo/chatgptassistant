@@ -6,7 +6,8 @@
 #' @export
 #'
 #' @import httr2
-#' @examples See platform.openai.com/docs/api-reference/threads/createThread
+#' @examples
+#' See platform.openai.com/docs/api-reference/threads/createThread
 
 thread_create <- function(api_key) {
   httr2::request("https://api.openai.com/v1/threads") |>

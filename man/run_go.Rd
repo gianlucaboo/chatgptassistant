@@ -20,5 +20,5 @@ A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 Execture a Run
 }
 \examples{
-See platform.openai.com/docs/api-reference/runs
+See platform openai.com/docs/api-reference/runs
 }
