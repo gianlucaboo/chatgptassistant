@@ -11,7 +11,7 @@
 thread_manage <- function(thread_path, api_key) {
 
   thread_delete <-
-    utils::menu(c("Yes", "No"), title = "Do you want to create a new thread?")
+    menu(c("Yes", "No"), title = "Do you want to create a new thread?")
 
   if (thread_delete == 1) {
     thread <-
