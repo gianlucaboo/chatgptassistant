@@ -7,6 +7,7 @@
 #' @return Information on the deleted Message object. See https://platform.openai.com/docs/api-reference/messages/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/messages/deleteMessage
 
 message_delete <- function(thread_id, message_id, api_key){

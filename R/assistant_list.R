@@ -5,6 +5,7 @@
 #' @return A list of Assistants objects. See https://platform.openai.com/docs/api-reference/assistants/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/assistants/listAssistants
 
 assistant_list <- function(api_key) {

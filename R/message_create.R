@@ -7,6 +7,7 @@
 #' @return A Message object. See https://platform.openai.com/docs/api-reference/messages/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/messages/createMessage
 
 message_create <- function(thread_id, message, api_key){

@@ -8,6 +8,7 @@
 #' @return An Assistant object. See https://platform.openai.com/docs/api-reference/assistants/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/assistants/createAssistant
 
 assistant_create <- function(instructions, name, model, api_key){

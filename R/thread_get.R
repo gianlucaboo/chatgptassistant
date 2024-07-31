@@ -5,6 +5,7 @@
 #'
 #' @return A Thread object. See https://platform.openai.com/docs/api-reference/threads/object
 #' @export
+#' @import httr2
 #'
 #' @examples See https://platform.openai.com/docs/api-reference/threads/getThread
 

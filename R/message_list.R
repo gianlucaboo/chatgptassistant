@@ -6,6 +6,7 @@
 #' @return A list of Message objects. See https://platform.openai.com/docs/api-reference/messages/object
 #' @export
 #'
+#' @import httr2
 #' @examples See ChatGPT
 
 message_list <- function(thread_id, api_key){

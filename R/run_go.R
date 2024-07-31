@@ -7,6 +7,7 @@
 #' @return A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 #' @export
 #'
+#' @import httr2
 #' @examples See chatgpt
 
 run_go <- function(thread_id, run_id, api_key) {

@@ -6,6 +6,7 @@
 #' @return Information on the deleted Thread object. See https://platform.openai.com/docs/api-reference/threads/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/threads/deleteThread
 
 thread_delete <- function(thread_id, api_key){

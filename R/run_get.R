@@ -7,6 +7,7 @@
 #' @return A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/runs/getRun
 
 run_get <- function(thread_id, run_id, api_key) {

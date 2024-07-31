@@ -7,6 +7,7 @@
 #' @return A list of Run objects. See https://platform.openai.com/docs/api-reference/runs/object
 #' @export
 #'
+#' @import httr2
 #' @examples See https://platform.openai.com/docs/api-reference/runs/listRuns
 
 run_list <- function(thread_id, api_key) {
