@@ -44,6 +44,6 @@ message_manage <- function(thread_id, api_key){
     message_n <-
       message_list(thread_id=thread_id,
                    api_key=api_key)[["data"]] |> length()
-    print(paste0("The thread contains",  message_n, " message(s)"))
+    print(paste0("The thread contains ",  message_n, " message(s)"))
   }
 }
