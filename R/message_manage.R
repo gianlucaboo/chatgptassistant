@@ -14,6 +14,7 @@
 #' @importFrom chatgptassistant message_list
 #' @importFrom chatgptassistant message_delete
 #' @examples
+#' message_manage()
 
 message_manage <- function(thread_id, api_key){
   message_delete <- utils::menu(c("Yes", "No"), title = "Do you want to delete all the messages?")

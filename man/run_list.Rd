@@ -17,3 +17,6 @@ A list of Run objects. See https://platform.openai.com/docs/api-reference/runs/o
 \description{
 List Runs
 }
+\examples{
+run_list()
+}

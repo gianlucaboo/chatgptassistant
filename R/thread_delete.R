@@ -8,6 +8,7 @@
 #'
 #' @import httr2
 #' @examples
+#' thread_delete()
 
 thread_delete <- function(thread_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id)) |>

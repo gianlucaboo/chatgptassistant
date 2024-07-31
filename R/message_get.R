@@ -9,6 +9,7 @@
 #'
 #' @import httr2
 #' @examples
+#' message_get()
 
 message_get <- function(thread_id, message_id, api_key){
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id, "/messages/", message_id)) |>

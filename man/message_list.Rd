@@ -17,3 +17,6 @@ A list of Message objects. See https://platform.openai.com/docs/api-reference/me
 \description{
 List Messages
 }
+\examples{
+message_list()
+}

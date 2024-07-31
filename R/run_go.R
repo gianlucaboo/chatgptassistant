@@ -9,6 +9,7 @@
 #'
 #' @import httr2
 #' @examples
+#' run_go()
 
 run_go <- function(thread_id, run_id, api_key) {
   httr2::request(paste0("https://api.openai.com/v1/threads/", thread_id, "/runs/", run_id,"/messages")) |>

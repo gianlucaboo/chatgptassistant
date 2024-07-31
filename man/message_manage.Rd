@@ -17,3 +17,6 @@ Print the status
 \description{
 Manage Messages
 }
+\examples{
+message_manage()
+}

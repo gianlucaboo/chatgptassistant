@@ -13,6 +13,7 @@
 #' @importFrom chatgptassistant thread_get
 #'
 #' @examples
+#' thread_manage()
 
 thread_manage <- function(thread_path, api_key) {
 

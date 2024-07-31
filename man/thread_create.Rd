@@ -15,3 +15,6 @@ A Thread object. See https://platform.openai.com/docs/api-reference/threads/obje
 \description{
 Create a Thread
 }
+\examples{
+thread_create()
+}

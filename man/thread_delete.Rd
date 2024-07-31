@@ -17,3 +17,6 @@ Information on the deleted Thread object. See https://platform.openai.com/docs/a
 \description{
 Delete a Thread
 }
+\examples{
+thread_delete()
+}

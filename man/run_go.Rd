@@ -19,3 +19,6 @@ A Run object. See https://platform.openai.com/docs/api-reference/runs/object
 \description{
 Execture a Run
 }
+\examples{
+run_go()
+}

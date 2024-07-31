@@ -7,6 +7,7 @@
 #'
 #' @import httr2
 #' @examples
+#' assistant_list()
 
 assistant_list <- function(api_key) {
   httr2::request("https://api.openai.com/v1/assistants?order=desc&limit=20") |>

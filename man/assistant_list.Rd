@@ -15,3 +15,6 @@ A list of Assistants objects. See https://platform.openai.com/docs/api-reference
 \description{
 List Assistants
 }
+\examples{
+assistant_list()
+}

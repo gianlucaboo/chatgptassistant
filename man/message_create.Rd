@@ -19,3 +19,6 @@ A Message object. See https://platform.openai.com/docs/api-reference/messages/ob
 \description{
 Create a Message
 }
+\examples{
+message_create()
+}
