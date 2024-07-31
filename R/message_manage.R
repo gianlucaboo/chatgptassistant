@@ -29,7 +29,7 @@ message_manage <- function(thread_id, api_key){
         message_list(thread_id=thread_id,
                      api_key=api_key)[["data"]] |>
         data.table::rbindlist() |>
-        dplyr::pull(id) |>
+        dplyr::pull("id") |>
         purrr::walk(function(message_id) {
           message_delete(thread_id=thread_id,
                          message_id=message_id,
